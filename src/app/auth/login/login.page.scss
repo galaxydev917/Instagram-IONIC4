@@ -1,0 +1,40 @@
+ion-item{
+    --border-color: var(--ion-color-danger, #ff3355);   
+    margin-top: 10px;
+}
+ion-button{
+    --background: #ff3355
+}
+ion-footer{
+    height:30px; text-align: center;
+}
+.header-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24pt;
+    color: #ff3355;
+    margin-top:60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.forgot-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12.5pt;
+    color: #ff3355;
+    float: right;
+
+}
+.custom-line{
+    border: 0.3px solid black; opacity: 0.5; margin-top: 20px;
+}
+.custom-linetext{
+    opacity: 0.5; 
+    margin-top: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12.5pt;
+}
+.custom-signuptext{
+    color: #ff3355;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+}

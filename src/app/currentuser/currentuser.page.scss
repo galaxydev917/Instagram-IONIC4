@@ -1,0 +1,36 @@
+ion-content{
+    --ion-background-color: #ffe6ea;
+}
+ion-footer{
+    height:35px; 
+}
+.circle-pic{
+  -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.custom-textcard {
+font-style: italic;
+color: darkslategray;
+font-size: 12.5pt;
+
+}  
+.avatar-text {
+    opacity: 0.7;
+    font-size: 10pt;
+    margin-top:5px;
+}
+.header-segment{
+    background-color: #ffe6ea;
+}
+.camera-icon {
+  opacity: 0.4;
+}
+.camera-img{
+  width:25px;
+  height: 25px;
+}
+.camera-text{
+  margin-bottom: 16px;
+  font-size: 12pt;
+  color: #598dec;
+}

@@ -1,0 +1,27 @@
+
+<ion-content >
+    <form  #form="ngForm" (ngSubmit)="register(form)">
+      <ion-grid>
+        <ion-row justify-content-center>
+            <ion-col align-self-center size-md="6" size-lg="5" size-xs="10">
+              <div text-center style="margin-top:60px;">
+                <h3><font face="verdana" size="5" color="#ff3355">Forgot my Password!</font></h3>
+                <font face="verdana" size="2" color="#ff3355">Enter your phone number or email and we will send you password reset link to get back into your account.</font>
+              </div>
+              <ion-item >
+                <ion-input placeholder="Phone number or email" style="margin-top:10px;"></ion-input>
+              </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row justify-content-center>
+            <ion-col style="text-align: right;" size-md="6" size-lg="5" size-xs="10">
+                <ion-button size="medium" type="submit" [disabled]="form.invalid" expand="block" style="margin-top:15px;">Reset Password</ion-button>
+              </ion-col>
+          </ion-row>
+      </ion-grid>
+    </form>
+  </ion-content>
+  <ion-footer style="height:30px; text-align: center;">
+      <div style="margin-top:3px;"><a routerLink='/login'><font face="verdana" size="2" color="#ff3355"> Sign in</font></a></div>
+     
+     </ion-footer>

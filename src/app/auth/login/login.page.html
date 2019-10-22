@@ -1,0 +1,55 @@
+<ion-content padding>
+  <form #form="ngForm" (ngSubmit)="login(form)">
+    <ion-grid>
+      <!--input form starting -->
+      <ion-row justify-content-center>
+        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+            <h3 class="header-text">Instagram</h3>
+
+          <ion-item>
+            <ion-input placeholder="Phone number or email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input placeholder="Password"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <!-- forgot password -->
+      <ion-row>
+        <ion-col>
+            <a href="#" routerLink='/forgot' class="forgot-text">forgot password?</a>   
+        </ion-col>
+      </ion-row>
+
+      <!-- login buttong -->
+      <ion-row>
+        <ion-col>
+            <ion-button size="medium" type="ion-button" [disabled]="form.invalid" expand="block">Log in</ion-button>
+          </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+            <div class="custom-line"></div>   
+        </ion-col>
+        <ion-col><div class="custom-linetext">OR</div>
+        </ion-col>
+        <ion-col>
+            <div class="custom-line"></div>   
+        </ion-col>
+      </ion-row>  
+      <!-- facebook button-->    
+      <ion-row>
+          <ion-col>
+              <ion-button size="medium" type="ion-button" [disabled]="form.invalid" expand="block"><ion-icon name="logo-facebook"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;Log in with Facebook</ion-button>
+          </ion-col>    
+        </ion-row>
+    </ion-grid>
+  </form>
+
+</ion-content>
+<!-- starting footer with sign up-->
+<ion-footer>
+ <div>Don't have account?&nbsp;&nbsp;&nbsp;<a routerLink='/register' class="custom-signuptext">Sign up</a></div>
+
+</ion-footer>

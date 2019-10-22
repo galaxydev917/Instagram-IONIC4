@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot="start"></ion-back-button>
+    <ion-title>Add-friends</ion-title>
+  </ion-toolbar>
+</ion-header>
+<div class="header-segment">
+  <ion-searchbar placeholder="Search Friends"></ion-searchbar>
+</div>
+<ion-content>
+    <ion-list>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img src="./assets/slide/1.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Cristiano Ronaldo</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+        <img src="./assets/slide/2.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Leo Messi</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+        <img src="./assets/slide/3.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Neymar Jr</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+      <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <img src="./assets/slide/1.jpg" class="circle-pic">
+          </ion-thumbnail>
+          <ion-label>&nbsp;&nbsp;&nbsp;Cristiano Ronaldo</ion-label>
+          <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+        </ion-item>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+            <img src="./assets/slide/2.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Leo Messi</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img src="./assets/slide/3.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Neymar Jr</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+      <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <img src="./assets/slide/1.jpg" class="circle-pic">
+          </ion-thumbnail>
+          <ion-label>&nbsp;&nbsp;&nbsp;Cristiano Ronaldo</ion-label>
+          <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+        </ion-item>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img src="./assets/slide/2.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Cristiano Ronaldo</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+            <img src="./assets/slide/3.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Neymar Jr</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img src="./assets/slide/2.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Leo Messi</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img src="./assets/slide/3.jpg" class="circle-pic">
+        </ion-thumbnail>
+        <ion-label>&nbsp;&nbsp;&nbsp;Leo Messi</ion-label>
+        <ion-button class="add-friend"><ion-icon shape="round" name="add" ></ion-icon>&nbsp;Add</ion-button>
+      </ion-item>
+    </ion-list>
+    </ion-content>

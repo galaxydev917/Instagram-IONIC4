@@ -1,0 +1,23 @@
+ion-item{
+    --border-color: var(--ion-color-danger, #ff3355);   
+    margin-top: 10px;
+}
+ion-button{
+    --background: #ff3355
+}
+ion-footer{
+    height:30px; text-align: center;
+}
+.header-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24pt;
+    color: #ff3355;
+    margin-top:60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.custom-signintext{
+    color: #ff3355;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+}

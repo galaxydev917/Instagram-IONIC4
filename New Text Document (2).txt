@@ -1,0 +1,14 @@
+.circle-pic{
+    -webkit-border-radius: 50%;
+    border-radius: 20%;
+  }
+  ion-content{
+    --ion-background-color: #ffe6ea;
+  }
+  .add-friend{
+    --background: #ff3355;
+  }
+  .header-segment{
+    background-color: #ffe6ea;
+  }
+  

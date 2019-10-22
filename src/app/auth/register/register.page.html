@@ -1,0 +1,27 @@
+
+<ion-content >
+    <form  #form="ngForm" (ngSubmit)="register(form)">
+      <ion-grid>
+        <!--input form starting -->
+        <ion-row justify-content-center>
+            <ion-col align-self-center size-md="6" size-lg="5" size-xs="10">
+                <h3 class="header-text">Create your account!</h3>
+              <ion-item >
+                <ion-input placeholder="Phone number or email"></ion-input>
+              </ion-item>
+            </ion-col>
+        </ion-row>
+        <!-- starting create account button -->
+        <ion-row justify-content-center>
+            <ion-col size-md="6" size-lg="5" size-xs="10">
+                <ion-button size="medium" type="submit" [disabled]="form.invalid" expand="block">Create Account</ion-button>
+              </ion-col>
+          </ion-row>
+      </ion-grid>
+    </form>
+  </ion-content>
+  <!-- starting footer with sign in-->
+  <ion-footer>
+      <div>Already have account?&nbsp;&nbsp;&nbsp;<a routerLink='/login' class="custom-signintext">Sign in</a></div>
+     
+  </ion-footer>
